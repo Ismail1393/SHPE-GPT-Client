@@ -12,6 +12,6 @@ export class ShpeGPTService {
   constructor(private http: HttpClient) {}
 
   public sendMessage(text: any): Observable<any> {
-    return this.http.post(`http://192.168.1.128:3001/chat`, { message: text });
+    return this.http.post(`${this.API_URL}/chat`, { message: text });
   }
 }
