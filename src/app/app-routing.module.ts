@@ -4,7 +4,7 @@ import { CompanyPageComponent } from './features/company/pages/company-page/comp
 import { ShpeGPTPageComponent } from './features/shpe-gpt/pages/shpe-gpt-page/shpe-gpt-page.component';
 
 const routes: Routes = [
-  { path: '', component: CompanyPageComponent },
+  { path: '', component: ShpeGPTPageComponent },
   { path: 'shpegpt', component: ShpeGPTPageComponent },
 ];
 

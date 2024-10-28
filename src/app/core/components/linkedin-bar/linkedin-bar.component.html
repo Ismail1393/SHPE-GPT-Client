@@ -1,19 +1,6 @@
 <mat-toolbar class="toolbar">
   <div class="ticker-bar">
     <div class="ticker">
-      <div class="nameset">
-        <span *ngFor="let person of names; let i = index" class="name">
-          <a
-            [href]="person.linkedin"
-            target="_blank"
-            [ngStyle]="{ color: getColor(i) }"
-          >
-            {{ person.name }}
-          </a>
-          &nbsp;&nbsp;|&nbsp;&nbsp;
-        </span>
-      </div>
-
       <span *ngFor="let person of names; let i = index" class="name">
         <a
           [href]="person.linkedin"
