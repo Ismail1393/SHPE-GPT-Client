@@ -1,6 +1,6 @@
 export const environment = {
   production: false,
-  API_URL: 'http://147.182.248.142:3001',
+  API_URL: 'https://147.182.248.142',
   AUTH0_DOMAIN: '',
   AUTH0_CLIENT_ID: '',
   AUTH0_AUDIENCE: '',
