@@ -1,6 +1,6 @@
 export const environment = {
   production: true,
-  API_URL: 'https://147.182.248.142',
+  API_URL: 'https://server.shpegpt.com',
   AUTH0_DOMAIN: '',
   AUTH0_CLIENT_ID: '',
   AUTH0_AUDIENCE: '',
