@@ -11,6 +11,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { CoreModule } from 'src/app/core/core.module';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
+import { MatToolbarModule } from '@angular/material/toolbar';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { MatProgressBarModule } from '@angular/material/progress-bar';
     MatButtonModule,
     MatCardModule,
     FormsModule,
+    MatToolbarModule
   ],
 })
 export class ShpeGPTModule {}

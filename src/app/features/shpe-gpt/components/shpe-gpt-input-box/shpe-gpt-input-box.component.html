@@ -1,6 +1,6 @@
 <mat-progress-bar *ngIf="isLoading" mode="buffer"></mat-progress-bar>
 <mat-form-field appearance="outline" class="shpe-gpt-input-box">
-  <mat-label>Creator: Ismail Mustaali & Zain Ali</mat-label>
+  <mat-label>Send Message</mat-label>
   <input
     matInput
     (keydown.enter)="sendMessage()"
@@ -16,3 +16,17 @@
     <mat-icon>send</mat-icon>
   </button>
 </mat-form-field>
+
+<mat-toolbar class="custom-toolbar">
+  <div class="creator-links">
+    <a href="https://www.linkedin.com/in/ismailmustaali" target="_blank"
+      >Ismail Mustaali |</a
+    >
+    <a href="https://www.linkedin.com/in/zainaleeh" target="_blank"
+      >Zain Ali |</a
+    >
+    <a href="https://www.linkedin.com/in/ahsan-wahab" target="_blank"
+      >Ahsan Wahab</a
+    >
+  </div>
+</mat-toolbar>

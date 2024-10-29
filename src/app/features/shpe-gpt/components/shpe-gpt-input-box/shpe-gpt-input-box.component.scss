@@ -13,3 +13,43 @@
     margin-left: 8px;
   }
 }
+
+.shpe-gpt-input-box {
+  width: 100%;
+
+  &__actions {
+    display: flex;
+    align-items: center;
+  }
+
+  .loading-spinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8px;
+  }
+}
+.custom-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #fff;
+  justify-content: center;
+
+  .creator-links {
+    display: flex;
+    flex-wrap: wrap;
+
+    a {
+      color: #979797; // Dark grey font color
+      font-size: 16px; // Reduced font size
+      font-weight: 500;
+      margin-right: 8px;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
