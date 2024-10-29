@@ -3,7 +3,7 @@
 }
 
 .bot {
-  background-color: #ffffff;
+  background-color: #DCDCDC;
 }
 
 .shpe-gpt-message-box {
@@ -65,4 +65,36 @@
   .shpe-gpt-message-box__container__text {
     width: 30%;
   }
+}
+
+
+.shpe-gpt-message-box__container__text {
+  /* Existing styles */
+
+  h1, h2, h3, h4, h5, h6 {
+    /* Heading styles */
+    margin: 0.5em 0;
+  }
+
+  p {
+    /* Paragraph styles */
+    margin: 0.5em 0;
+  }
+
+  ul, ol {
+    /* List styles */
+    margin: 0.5em 0 0.5em 1.5em;
+  }
+
+  li {
+    /* List item styles */
+    margin: 0.25em 0;
+  }
+
+  strong, b {
+    /* Bold text styles */
+    font-weight: bold;
+  }
+
+  /* Add any additional styles as needed */
 }

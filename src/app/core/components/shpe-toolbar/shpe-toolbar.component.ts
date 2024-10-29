@@ -14,7 +14,7 @@ export class ShpeToolbarComponent {
   }
 
   navigateToShpeGPTPage(): void {
-    this.router.navigate(['/shpegpt']);
+    this.router.navigate(['/']);
   }
 
   sendEmail(): void {
