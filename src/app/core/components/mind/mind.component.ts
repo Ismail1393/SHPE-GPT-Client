@@ -23,7 +23,7 @@ export class MindComponent implements OnInit, AfterViewInit, OnDestroy {
   private renderer!: THREE.WebGLRenderer;
   private particles!: THREE.Points;
   private frameId!: number;
-  private numParticles = 1000;
+  private numParticles = 10000;
 
   constructor() {}
 
@@ -51,8 +51,8 @@ export class MindComponent implements OnInit, AfterViewInit, OnDestroy {
     this.scene = new THREE.Scene();
 
     // Create and position the camera
-    this.camera = new THREE.PerspectiveCamera(75, width / height, 0.1, 1000);
-    this.camera.position.z = 5;
+    this.camera = new THREE.PerspectiveCamera(20, width / height, 0.5, 1000);
+    this.camera.position.z = 2;
 
     // Create the renderer
     this.renderer = new THREE.WebGLRenderer({ antialias: true });

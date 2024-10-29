@@ -1,28 +1,36 @@
 .toolbar {
+  position: relative; // Make toolbar the containing block for absolute positioning
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #000000;
+  background-color: #000000; // Optional if app-mind provides the background
   color: #bebebe;
-  
+
   &__mind {
-      width: 80px;
-      height: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0; // Place behind other toolbar elements
+    pointer-events: none; // Allow clicks to pass through
+  }
+
+  &__navbuttons,
+  &__options {
+    position: relative; // Position above the mind component
+    z-index: 1;
+    display: flex;
+    align-items: center;
   }
   &__logo {
-    font-family: "Nunito", sans-serif;
+    position: relative;
+    z-index: 1;
+    font-family: 'Nunito', sans-serif;
     font-size: 24px;
   }
 
-  &__navbuttons {
-    display: flex;
-    align-items: center;
-  }
 
-  &__options {
-    display: flex;
-    align-items: center;
-  }
 }
 
 .user-info {
