@@ -23,7 +23,7 @@ export class MindComponent implements OnInit, AfterViewInit, OnDestroy {
   private renderer!: THREE.WebGLRenderer;
   private particles!: THREE.Points;
   private frameId!: number;
-  private numParticles = 10000;
+  private numParticles = 4000;
 
   constructor() {}
 
