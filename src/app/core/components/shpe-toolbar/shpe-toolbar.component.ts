@@ -14,10 +14,15 @@ export class ShpeToolbarComponent {
   }
 
   navigateToShpeGPTPage(): void {
-    this.router.navigate(['/shpegpt']);
+    this.router.navigate(['/']);
   }
 
   sendEmail(): void {
-    window.open(`mailto:${'ismailmustaali'}@${'gmail'}.${'com'}`, '_blank');
+    const emails = [
+      'ismailmustaali@usf.edu',
+      'muhammadzain@usf.edu',
+      'ahsanwahab@usf.edu',
+    ];
+    window.open(`mailto:${emails.join(',')}`, '_blank');
   }
 }

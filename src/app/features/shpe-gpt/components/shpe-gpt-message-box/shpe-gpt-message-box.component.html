@@ -2,7 +2,7 @@
   <div [ngClass]="message.sender" *ngFor="let message of messages">
     <div class="shpe-gpt-message-box__container">
       <div class="shpe-gpt-message-box__container__text">
-        <span>{{ message.text }}</span>
+        <span [innerHTML]="getSanitizedHtml(message.text)"></span>
       </div>
     </div>
     <mat-divider></mat-divider>

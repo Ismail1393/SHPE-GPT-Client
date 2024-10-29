@@ -1,5 +1,4 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
-
 @Component({
   selector: 'app-shpe-gpt-input-box',
   templateUrl: './shpe-gpt-input-box.component.html',

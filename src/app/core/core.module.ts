@@ -6,9 +6,10 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
 import { MatMenuModule } from '@angular/material/menu';
 import { LinkedinBarComponent } from './components/linkedin-bar/linkedin-bar.component';
+import { MindComponent } from './components/mind/mind.component';
 
 @NgModule({
-  declarations: [ShpeToolbarComponent, LinkedinBarComponent],
+  declarations: [ShpeToolbarComponent, LinkedinBarComponent, MindComponent],
   imports: [
     CommonModule,
     MatIconModule,
@@ -28,6 +29,6 @@ import { LinkedinBarComponent } from './components/linkedin-bar/linkedin-bar.com
   ],
   providers: [],
 
-  exports: [ShpeToolbarComponent, LinkedinBarComponent],
+  exports: [ShpeToolbarComponent, LinkedinBarComponent, MindComponent],
 })
 export class CoreModule {}
