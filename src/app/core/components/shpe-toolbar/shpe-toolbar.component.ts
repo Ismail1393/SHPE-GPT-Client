@@ -18,6 +18,11 @@ export class ShpeToolbarComponent {
   }
 
   sendEmail(): void {
-    window.open(`mailto:${'ismailmustaali'}@${'gmail'}.${'com'}`, '_blank');
+    const emails = [
+      'ismailmustaali@usf.edu',
+      'muhammadzain@usf.edu',
+      'ahsanwahab@usf.edu',
+    ];
+    window.open(`mailto:${emails.join(',')}`, '_blank');
   }
 }
